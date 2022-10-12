@@ -1,5 +1,5 @@
 # Rules Generator
-Simple Python script, which takes mining pool lists as an input, and verifies if the IP:port truly is a mining pool server.
+Simple Python script, which takes mining pool lists as an input, and verifies if the `IP:port` truly is a mining pool server.
 Verification is done via active probing - Stratum request and reply is checked. Script can be periodically run via CRON. Verified pairs are written to the output file and can be used for traffic capture or filtering.
 
 ## Acknowledgements
